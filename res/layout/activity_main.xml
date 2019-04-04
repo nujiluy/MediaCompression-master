@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Compress"
+        android:textSize="20sp"
+        android:id="@+id/compress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Rotation"
+        android:textSize="20sp"
+        android:id="@+id/rotation"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

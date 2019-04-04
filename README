@@ -1,0 +1,9 @@
+
+
+
+关于压缩事件的相关类及步骤： 
+ 1  limitBean 是视频可以进行压缩的条件集合
+ 2  JudgeMediaSition 是对于limitBean 条件的基础上进行判断 并得到相应的参数（如 要压缩的分辨率）
+ 3  MediaCompression 对2的条件通过后 进行压缩的相关事件   (video :声明 ==> 文件提取==>解码==>编码==>合成==>释放所用资源)  
+                                                (audio :声明 ==> 文件提取==>合成==>释放所用资源)
+ 4  MediaCompressionListener  对于压缩相关事件的反馈                 
